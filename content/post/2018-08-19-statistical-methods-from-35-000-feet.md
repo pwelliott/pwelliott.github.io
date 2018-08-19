@@ -9,7 +9,7 @@ categories: []
 
 tags: []
 
-summary = "Accessible descriptions of common statistical tools"
+summary: "Accessible descriptions of common statistical tools"
 
 header:
   caption: ''
