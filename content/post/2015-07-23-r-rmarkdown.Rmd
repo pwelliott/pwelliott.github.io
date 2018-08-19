@@ -1,5 +1,8 @@
 ---
 title: "Hello R Markdown"
+
+summary: "A demonstration of R Markdown"
+
 author: "Frida Gomam"
 date: 2018-07-23
 categories: ["R"]
