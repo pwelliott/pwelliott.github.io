@@ -1,7 +1,7 @@
 +++
 # Feature/Skill widget.
 widget = "featurette"
-active = true
+active = false
 date = "2017-11-21"
 
 # Order that this section will appear in.
