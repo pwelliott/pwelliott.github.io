@@ -21,6 +21,8 @@ Fall 2018 - TBA
 
 Past Courses:
 
+| Term | Course Number | Course Title |
+| --- | --- | --- |
 |Spring 2018 | `(46-927)` | Statistical and Machine Learning II |
 |Spring 2017 | `(36-226)` | Introduction to Statistical Inference|
 |Fall 2016 | `(36-720)` | Network Models|
