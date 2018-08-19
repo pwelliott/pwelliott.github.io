@@ -20,7 +20,10 @@ The goal of this series of posts is to present some common methods in statistics
 
 * Linear Regression
 * Logistic Regression and Generalized Linear Models
-* Linear Discriminant Analysis and Naive Bayes
+* Shrinkage and Sparsity
+* Bayesian Inference
+* Bayesian Classifiers
+* Linear Discriminant Analysis, Naive Bayes and Nearest Shrunken Centroids
 * Decision Trees
 * Nearest Neighbors
 * Random Forests and Bagging
@@ -28,8 +31,6 @@ The goal of this series of posts is to present some common methods in statistics
 * Boosting and Ensemble Methods
 * Kernel Density Estimation and Regression
 * Basis Methods for Nonparametric Regression
-* Bayesian Methods
-* Shrinkage and Sparsity
 * Principal Components Analysis
 * Matrix Factorization
 * K-Means Clustering
