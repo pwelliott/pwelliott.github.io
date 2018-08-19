@@ -22,6 +22,7 @@ Current Course:
 |Fall 2018| TBA | TBA |
 
 Instructor:
+
 | Term | Course Number | Course Title |
 | --- | --- | --- |
 |Summer 2015 | `(36-201)` | Statistical Reasoning and Practice |
