@@ -17,9 +17,16 @@ weight = 60
 
 Current Course:
 
-Fall 2018 - TBA
+| Term | Course Number | Course Title |
+| --- | --- | --- |
+|Fall 2018| TBA | TBA |
 
-Past Courses:
+Instructor:
+| Term | Course Number | Course Title |
+| --- | --- | --- |
+|Summer 2015 | `(36-201)` | Statistical Reasoning and Practice |
+
+Teaching Assistant:
 
 | Term | Course Number | Course Title |
 | --- | --- | --- |
@@ -32,6 +39,3 @@ Past Courses:
 |Fall 2014 | `(36-401)` | Modern Regression |
 |Spring 2014 | `(36-201)` | Statistical Reasoning and Practice |
 |Fall 2013 | `(36-401)` | Modern Regression |
-
-Instructor:
-|Summer 2015 | `(36-201)` | Statistical Reasoning and Practice |
