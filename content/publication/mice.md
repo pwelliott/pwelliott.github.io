@@ -43,19 +43,19 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "#"
-url_preprint = "#"
-url_code = "#"
+url_pdf = ""
+url_preprint = ""
+url_code = "https://osf.io/54n59/"
 url_dataset = "https://osf.io/54n59/"
-url_project = "#"
-url_slides = "#"
-url_video = "#"
-url_poster = "#"
-url_source = "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0179662"
+url_project = ""
+url_slides = ""
+url_video = ""
+url_poster = ""
+url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "http://example.org"}]
+url_custom = [{name = "PLOS ONE", url = "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0179662"}]
 
 # Does this page contain LaTeX math? (true/false)
 math = true
