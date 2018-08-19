@@ -10,9 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Statistics and Machine Learning"
-    "Multivariate Time Series"
-    "Dimensionality Reduction"
+    "Statistics and Machine Learning",
+    "Multivariate Time Series",
+    "Dimensionality Reduction",
     "Interpretable Classification"
   ]
 
