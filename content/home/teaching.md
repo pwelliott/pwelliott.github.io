@@ -17,9 +17,9 @@ weight = 60
 
 Current Course:
 
-| Term | Course Number | Course Title |
-| --- | --- | --- |
-|Fall 2018| TBA | TBA |
+| Term | Course Number | Course Title | Role |
+| --- | --- | --- | --- |
+|Fall 2018| TBA | TBA | Teaching Assistant|
 
 Instructor:
 
