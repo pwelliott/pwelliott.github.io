@@ -8,25 +8,35 @@ summary: An introduction to regression
 categories: ["R"]
 tags: []
 ---
- ```{r setup, include=FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
-# R Markdown
+
+Linear Regression is a foundational topic in Statistics and Machine Learning. Countless books have been written on the topic, ranging from theory to tips for practitioners. In this post I aim to answer a few important questions:
+
+* What is regression?
+* What does it mean for it to be linear?
+* How does it work?
+* What can we learn when using Linear Regression?
+* When should we be skeptical of results?
+
+## What is Regression?
  
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
  
  You can embed an R code chunk like this:
  
- ```{r cars}
+```{r cars}
 summary(cars)
 fit <- lm(dist ~ speed, data = cars)
 fit
 ```
+
 # Including Plots
  
  You can also embed plots. See Figure \@ref(fig:pie) for example:
  
- ```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
 par(mar = c(0, 1, 0, 1))
 pie(
   c(280, 60, 20),
