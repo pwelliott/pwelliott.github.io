@@ -36,6 +36,6 @@ weight = 5
 
 # Biography
 
-I am a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD Candidate in the Department of Statistics & Data Science at Carnegie Mellon University. My research is focused on designing multivariate methods for analyzing neural time series, particularly from intracranial EEG. Statistically, these can be framed as methods for dimensionality reduction -- with the goal of describing covariation in neural activity -- and classification -- to assess neural responses to stimuli. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am also involved in the department's Teaching Statistics research group. The goal of the group is to improve undergraduate statistics education, including pedagogy, curriculum, and assessment of student learning.
