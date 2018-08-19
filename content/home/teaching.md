@@ -15,19 +15,19 @@ weight = 60
 
 +++
 
-Current Course:
+**Current Course:**
 
 | Term | Course Number | Course Title | Role |
 | --- | --- | --- | --- |
 |Fall 2018| TBA | TBA | Teaching Assistant|
 
-Instructor:
+**Instructor:**
 
 | Term | Course Number | Course Title |
 | --- | --- | --- |
 |Summer 2015 | `(36-201)` | Statistical Reasoning and Practice |
 
-Teaching Assistant:
+**Teaching Assistant:**
 
 | Term | Course Number | Course Title |
 | --- | --- | --- |
