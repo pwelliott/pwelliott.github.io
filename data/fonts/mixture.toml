@@ -2,10 +2,10 @@
 name = "Mixture"
 
 # Optional Google font URL
-google_fonts = "Lato:400,700|Merriweather|Roboto+Mono"
+google_fonts = "Lato:400,700|Merriweather|Roboto+Mono|Cabin"
 
 # Font families
-heading_font = "Lato"
+heading_font = "Cabin"
 body_font = "Merriweather"
 nav_font = "Lato"
 mono_font = "Roboto Mono"
