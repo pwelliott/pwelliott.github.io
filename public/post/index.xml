@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Prediction, Estimation and Inference</title>
+      <link>/post/prediction-estimation-inference/</link>
+      <pubDate>Sun, 19 Aug 2018 18:00:00 +0000</pubDate>
+      
+      <guid>/post/prediction-estimation-inference/</guid>
+      <description>In popular culture, statisticians are often thought of as people that like to describe things with numbers. For every event or phenomenon, a statistician can come up with a metric that describes it. From this perspective, a statistic is merely something that sheds a little light. There is relatively little awareness of the idea of statistical modeling, though this in fact is the bulk of what academic statistics is concerned with.</description>
+    </item>
+    
+    <item>
       <title>Statistical Methods from 35,000 Feet</title>
       <link>/post/statistical-methods-from-35-000-feet/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
@@ -20,15 +29,6 @@
       <guid>/post/statistical-methods-from-35-000-feet/</guid>
       <description>The goal of this series of posts is to present some common methods in statistics and machine learning in a way that can help build intuition without an overwhelming amount of mathematical detail. My plan is to cover the following topics &amp;ndash; links will appear as posts go up:
  Linear Regression Logistic Regression and Generalized Linear Models Shrinkage and Sparsity Bayesian Inference Bayesian Classifiers Linear Discriminant Analysis, Naive Bayes and Nearest Shrunken Centroids Decision Trees Nearest Neighbors Random Forests and Bagging Support Vector Machines Boosting and Ensemble Methods Kernel Density Estimation and Regression Basis Methods for Nonparametric Regression Principal Components Analysis Matrix Factorization K-Means Clustering Hierarchical Clustering Neural Networks  There&amp;rsquo;s a lot to say about each of these topics &amp;ndash; enough to fill thousands of pages &amp;ndash; so my aim is only to scratch the surface.</description>
-    </item>
-    
-    <item>
-      <title>Prediction, Estimation and Inference</title>
-      <link>/post/prediction-estimation-inference/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/prediction-estimation-inference/</guid>
-      <description>In popular culture, statisticians are often thought of as people that like to describe things with numbers. For every event or phenomenon, a statistician can come up with a metric that describes it. From this perspective, a statistic is merely something that sheds a little light. There is relatively little awareness of the idea of statistical modeling, though this in fact is the bulk of what academic statistics is concerned with.</description>
     </item>
     
   </channel>
