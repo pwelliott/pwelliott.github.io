@@ -5,7 +5,7 @@ name = "Mixture"
 google_fonts = "Lato:400,700|Merriweather|Roboto+Mono|Cabin"
 
 # Font families
-heading_font = "Cabin"
+heading_font = "Lato"
 body_font = "Merriweather"
 nav_font = "Lato"
 mono_font = "Roboto Mono"
