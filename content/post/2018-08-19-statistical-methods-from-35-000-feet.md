@@ -23,7 +23,9 @@ The goal of this series of posts is to present some common methods in statistics
 * Linear Discriminant Analysis and Naive Bayes
 * Decision Trees
 * Nearest Neighbors
+* Random Forests and Bagging
 * Support Vector Machines
+* Boosting and Ensemble Methods
 * Kernel Density Estimation and Regression
 * Basis Methods for Nonparametric Regression
 * Bayesian Methods
