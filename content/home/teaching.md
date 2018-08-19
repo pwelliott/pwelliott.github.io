@@ -21,13 +21,13 @@ Fall 2018 - TBA
 
 Past Courses:
 
-+ Spring 2018 - `(46-927)` Statistical and Machine Learning II
-+ Spring 2017 - `(36-226)` Introduction to Statistical Inference
-+ Fall 2016 - (36-720) Network Models
-+ Spring 2016 - (36-315) Statistical Graphics and Visualization
-+ Fall 2015 - (36-461 / 661) Statistical Methods in Epidemiology
-+ **Summer 2015 - (36-201) Statistical Reasoning and Practice  - Instructor**
-+ Spring 2015 - (36-462) Data Mining
-+ Fall 2014 - (36-401) Modern Regression
-+ Spring 2014 - (36-201) Statistical Reasoning and Practice
-+ Fall 2013 - (36-401) Modern Regression
++ Spring 2018 - `(46-927)` - Statistical and Machine Learning II
++ Spring 2017 - `(36-226)` - Introduction to Statistical Inference
++ Fall 2016 - `(36-720)` - Network Models
++ Spring 2016 - `(36-315)` - Statistical Graphics and Visualization
++ Fall 2015 - `(36-461/661)` - Statistical Methods in Epidemiology
++ Summer 2015 - `(36-201)` - Statistical Reasoning and Practice  - **_Instructor_**
++ Spring 2015 - `(36-462)` - Data Mining
++ Fall 2014 - `(36-401)` - Modern Regression
++ Spring 2014 - `(36-201)` - Statistical Reasoning and Practice
++ Fall 2013 - `(36-401)` - Modern Regression
