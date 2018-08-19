@@ -16,7 +16,7 @@ authors = ["Peter Elliott", "Max G’Sell", "Lindsey M. Snyder",
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["1"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 publication = "In *PLOS ONE*"
@@ -71,4 +71,4 @@ caption = "My caption :smile:"
 
 +++
 
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+
