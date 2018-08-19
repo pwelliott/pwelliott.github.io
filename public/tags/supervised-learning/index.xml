@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 19 Aug 2018 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/supervised-learning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Linear Regression</title>
       <link>/post/linear-regression/</link>
-      <pubDate>Sun, 19 Aug 2018 15:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 Aug 2018 20:00:00 +0000</pubDate>
       
       <guid>/post/linear-regression/</guid>
       <description>Linear Regression is a foundational topic in Statistics and Machine Learning. Countless books have been written on the topic, ranging from theory to tips for practitioners. In this post I aim to answer a few important questions:
