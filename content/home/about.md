@@ -20,7 +20,7 @@ weight = 5
 [[education.courses]]
   course = "PhD in Statistics"
   institution = "Carnegie Mellon University"
-  year = In Progress
+  year = "In Progress""
 
 [[education.courses]]
   course = "MS in Statistics"
