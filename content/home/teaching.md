@@ -16,8 +16,10 @@ weight = 60
 +++
 
 Current Course:
+Fall 2018 - TBA
 
-Fall 2018: TBA
-
-Past Courses
+Past Courses:
+Spring 2018 - 
+Spring 2017 - Introduction to Statistical Inference (36-226)
+Fall 2016 - Networks
 
