@@ -33,9 +33,18 @@
     <item>
       <title>Methods</title>
       <link>/tags/methods/</link>
-      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 Aug 2018 15:00:00 +0000</pubDate>
       
       <guid>/tags/methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression</title>
+      <link>/tags/regression/</link>
+      <pubDate>Sun, 19 Aug 2018 15:00:00 +0000</pubDate>
+      
+      <guid>/tags/regression/</guid>
       <description></description>
     </item>
     
@@ -45,6 +54,15 @@
       <pubDate>Sun, 19 Aug 2018 18:00:00 +0000</pubDate>
       
       <guid>/tags/statistical-concepts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised Learning</title>
+      <link>/tags/supervised-learning/</link>
+      <pubDate>Sun, 19 Aug 2018 15:00:00 +0000</pubDate>
+      
+      <guid>/tags/supervised-learning/</guid>
       <description></description>
     </item>
     
