@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/post/linear-regression/</loc>
+      <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/post/statistical-methods-from-35-000-feet/</loc>
       <lastmod>2018-08-19T00:00:00+00:00</lastmod>
     </url>
@@ -140,6 +148,15 @@
     
       <loc>/publication_types/</loc>
       <lastmod>2017-07-05T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/r/</loc>
+      <lastmod>2018-08-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

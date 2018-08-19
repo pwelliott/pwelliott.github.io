@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Linear Regression</title>
+      <link>/post/linear-regression/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/linear-regression/</guid>
+      <description># R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com. You can embed an R code chunk like this:
+r summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+    <item>
       <title>Statistical Methods from 35,000 Feet</title>
       <link>/post/statistical-methods-from-35-000-feet/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
