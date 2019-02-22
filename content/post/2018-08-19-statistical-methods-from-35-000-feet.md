@@ -18,7 +18,7 @@ header:
 
 The goal of this series of posts is to present some common methods in statistics and machine learning in a way that can help build intuition without an overwhelming amount of mathematical detail. My plan is to cover the following topics -- links will appear as posts go up:
 
-* [Linear Regression](../LinearRegression.html)
+* [Linear Regression](linear-regression)
 * Logistic Regression and Generalized Linear Models
 * Shrinkage and Sparsity
 * Bayesian Inference
