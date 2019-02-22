@@ -44,3 +44,9 @@ The Naive Bayes classifier is one of the most popular classification methods, of
 In most cases this assumption is obviously wrong but Naive Bayes can still be very successful. This is because the independence assumption acts as a powerful form of regularization. By assuming independence, we don't overfit to spurious correlations, which can particularly be a problem when there are a large number of predictor variables (e.g. all the possible words that can appear in an email).
 
 Naive Bayes can be used for all kinds of data. In the email case, if we code each word as binary variable indicating its presence in the email, the likelihood function is the product of a large number of bernoulli probabilities. Each probability is simply the proportion of emails each type (i.e. spam or real) that the word appeared in. Another important special case is Gaussian Naive Bayes for real valued data. In this case, the observed predictor variables for each class are modeled as a multivariate Gaussian random variable where the mean vector depends on the class and the covariance matrix for each class is diagonal.
+
+## Linear Discriminant Analysis
+
+## Combining Assumptions
+
+## Explicit Regularization
