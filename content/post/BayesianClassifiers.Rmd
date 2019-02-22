@@ -13,22 +13,27 @@ tags: [Methods, Classification, Supervised Learning, Bayes]
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+In this post I will explore a number of common classification methods and show how they can all be cast as simple adaptations of a general Bayesian classifier. Moreover, we will see that a small set of adaptations can lead to the simple idea of a prototype classifier. Hopefully by placing these classifiers in a common framework we can get a better idea of how they work and the implicit forms of regularization that are involved.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Bayesian Classifiers and Prototype Classifiers -- the Two Ends of the Spectrum
+We will start with the idea of a Bayesian classifier. This form of classification makes use of the well-known Bayes Rule:
+$$
+P(A|B) = \frac{P(B|A) P(A)}{P(B)}
+$$
+In this case we can use $X$ to denote our observed predictor variables and $Z$ to denote the unobserved class label. Given $X$, our classifier should choose the class label with the highest conditional probability $P(Z|X)$. The marginal probability $P(X)$ is the same for every class, so there are two components that really matter: the *prior* probability $P(Z)$ and the *likelihood* $P(X|Z)$. To guess the class label we just need to maximize the product of these two components:
+$$
+\hat{Z} = \arg\max_i P(X|Z=i)P(Z=i)
+$$
+If I know what the correct prior probability is and I know what the correct likelihood function is, this is easy. Of course the hard part is estimating these two components from the available data. 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+One simple way to guess the prior is by counting the relative frequency of each class in the training set, but this can be problematic. For example, experimental data is often constructed to have similar frequencies for all classes, and this may not be reflective of the base rate of each class outside of the experiment. In other cases, rare classes may be intentionally over-sampled so that there is enough data to characterize the distribution of the class. 
 
-```{r cars}
-summary(cars)
-```
+Estimating the correct likelihood function is an even thornier issue. Observed predictor variables could follow any number of distributions. For multivariate data all sorts of complex non-linear dependencies are conceivable. Unfortunately, general nonparametric density estimation in high dimensional data is statistically intractable, so some form of simplifying assumption is necessary.
 
-## Including Plots
+On the other end of the spectrum from Bayesian classifiers is the prototype classifier. For this classifier, we replace the idea of probability with distance. Each class label is associated with a prototype (alternatively called a centroid) $\mu_i$ with the assumption that if our observed predictor variables $X$ are associated with class $i$ then $X$ should be very similar to $\mu_i$. We measure this similarity using a distance function $d$ and pick the class label where the prototype has the smallest distance to $X$:
+$$
+\hat{Z} = \arg\min_i d(X, \mu_i)
+$$
+The distance function can be any number of things, especially depending on what form the data takes. Probably the most common choice is Euclidean distance. This assumes that $X$ and $\mu_i$ are both vectors of real numbers, and the distance is given by the square root of the sum of the squared differences in each component of the two vectors.
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Bayesian classifiers and prototype classifiers are both very intuitive ideas for how to choose the class label for a new observation, but the connection between them may be less intuitive. We will see though that by making a small set of simple assumptions, we can transform a general Bayesian classifier into a prototype classifier, and we will find that some common classifiers bridge the gap between them.

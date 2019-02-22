@@ -11,22 +11,18 @@ tags: [Methods, Classification, Supervised Learning, Bayes]
 
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
-</div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="/post/BayesianClassifiers_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<p>In this post I will explore a number of common classification methods and show how they can all be cast as simple adaptations of a general Bayesian classifier. Moreover, we will see that a small set of adaptations can lead to the simple idea of a prototype classifier. Hopefully by placing these classifiers in a common framework we can get a better idea of how they work and the implicit forms of regularization that are involved.</p>
+<div id="bayesian-classifiers-and-prototype-classifiers-the-two-ends-of-the-spectrum" class="section level2">
+<h2>Bayesian Classifiers and Prototype Classifiers – the Two Ends of the Spectrum</h2>
+<p>We will start with the idea of a Bayesian classifier. This form of classification makes use of the well-known Bayes Rule: <span class="math display">\[
+P(A|B) = \frac{P(B|A) P(A)}{P(B)}
+\]</span> In this case we can use <span class="math inline">\(X\)</span> to denote our observed predictor variables and <span class="math inline">\(Z\)</span> to denote the unobserved class label. Given <span class="math inline">\(X\)</span>, our classifier should choose the class label with the highest conditional probability <span class="math inline">\(P(Z|X)\)</span>. The marginal probability <span class="math inline">\(P(X)\)</span> is the same for every class, so there are two components that really matter: the <em>prior</em> probability <span class="math inline">\(P(Z)\)</span> and the <em>likelihood</em> <span class="math inline">\(P(X|Z)\)</span>. To guess the class label we just need to maximize the product of these two components: <span class="math display">\[
+\hat{Z} = \arg\max_i P(X|Z=i)P(Z=i)
+\]</span> If I know what the correct prior probability is and I know what the correct likelihood function is, this is easy. Of course the hard part is estimating these two components from the available data.</p>
+<p>One simple way to guess the prior is by counting the relative frequency of each class in the training set, but this can be problematic. For example, experimental data is often constructed to have similar frequencies for all classes, and this may not be reflective of the base rate of each class outside of the experiment. In other cases, rare classes may be intentionally over-sampled so that there is enough data to characterize the distribution of the class.</p>
+<p>Estimating the correct likelihood function is an even thornier issue. Observed predictor variables could follow any number of distributions. For multivariate data all sorts of complex non-linear dependencies are conceivable. Unfortunately, general nonparametric density estimation in high dimensional data is statistically intractable, so some form of simplifying assumption is necessary.</p>
+<p>On the other end of the spectrum from Bayesian classifiers is the prototype classifier. For this classifier, we replace the idea of probability with distance. Each class label is associated with a prototype (alternatively called a centroid) <span class="math inline">\(\mu_i\)</span> with the assumption that if our observed predictor variables <span class="math inline">\(X\)</span> are associated with class <span class="math inline">\(i\)</span> then <span class="math inline">\(X\)</span> should be very similar to <span class="math inline">\(\mu_i\)</span>. We measure this similarity using a distance function <span class="math inline">\(d\)</span> and pick the class label where the prototype has the smallest distance to <span class="math inline">\(X\)</span>: <span class="math display">\[
+\hat{Z} = \arg\min_i d(X, \mu_i)
+\]</span> The distance function can be any number of things, especially depending on what form the data takes. Probably the most common choice is Euclidean distance. This assumes that <span class="math inline">\(X\)</span> and <span class="math inline">\(\mu_i\)</span> are both vectors of real numbers, and the distance is given by the square root of the sum of the squared differences in each component of the two vectors.</p>
+<p>Bayesian classifiers and prototype classifiers are both very intuitive ideas for how to choose the class label for a new observation, but the connection between them may be less intuitive. We will see though that by making a small set of simple assumptions, we can transform a general Bayesian classifier into a prototype classifier, and we will find that some common classifiers bridge the gap between them.</p>
 </div>
