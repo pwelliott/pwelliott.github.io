@@ -18,11 +18,11 @@ header:
 
 The goal of this series of posts is to present some common methods in statistics and machine learning in a way that can help build intuition without an overwhelming amount of mathematical detail. My plan is to cover the following topics -- links will appear as posts go up:
 
-* [Linear Regression](posts/linear-regression)
+* [Linear Regression](/post/linear-regression)
 * Logistic Regression and Generalized Linear Models
 * Shrinkage and Sparsity
 * Bayesian Inference
-* [Bayesian Classifiers](posts/bayes-classifiers)
+* [Bayesian Classifiers](/post/bayes-classifiers)
 * [Linear Discriminant Analysis, Naive Bayes and Nearest Shrunken Centroids](/bayes-classifiers)
 * Decision Trees
 * Nearest Neighbors
