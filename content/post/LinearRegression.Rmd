@@ -21,7 +21,8 @@ Linear Regression is a foundational topic in Statistics and Machine Learning. Co
 * When should we be skeptical of results?
 
 ## What is Regression?
- 
+Regression is a form of data analysis where 
+
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
  
  You can embed an R code chunk like this:
