@@ -22,8 +22,8 @@ The goal of this series of posts is to present some common methods in statistics
 * Logistic Regression and Generalized Linear Models
 * Shrinkage and Sparsity
 * Bayesian Inference
-* Bayesian Classifiers
-* Linear Discriminant Analysis, Naive Bayes and Nearest Shrunken Centroids
+* [Bayesian Classifiers](/bayes-classifiers)
+* [Linear Discriminant Analysis, Naive Bayes and Nearest Shrunken Centroids](/bayes-classifiers)
 * Decision Trees
 * Nearest Neighbors
 * Random Forests and Bagging
